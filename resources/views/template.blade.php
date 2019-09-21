@@ -12,11 +12,11 @@
     </body>
     <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">ENovel</a>
-        
+    <p class="p-4"></p>
+        <a class="navbar-brand" href="/beranda"><h3>ENovel</h3></a>        
         <!-- Search form -->
   <i class="fas fa-search" aria-hidden="true"></i>
-  <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
+  <input class="form-control form-control-sm ml-5 mr-5 w-75 " type="text" placeholder="Search"
     aria-label="Search">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" 
@@ -27,13 +27,8 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
-            </li>
+        <ul class="navbar-nav ml-auto mr-5">
+            
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -41,11 +36,17 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="/create">Buat Cerita Baru</a>
-                <a class="dropdown-item" href="#">Perpustakaan</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Tutorial Bootstrap</a>
+                <a class="dropdown-item" href="#">Perpustakaan</a>
             </div>
             </li>
+            <li class="nav-item active">
+            <a class="nav-link" href="/about">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+            </li>
+        </ul>    
            <!-- <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link Mati</a>
             </li>
