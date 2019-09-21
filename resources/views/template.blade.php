@@ -40,21 +40,21 @@
                 Setting
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Buat Cerita Baru</a>
+                <a class="dropdown-item" href="/create">Buat Cerita Baru</a>
                 <a class="dropdown-item" href="#">Perpustakaan</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Tutorial Bootstrap</a>
             </div>
-            <!-- </li>
-            <li class="nav-item">
+            </li>
+           <!-- <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link Mati</a>
             </li>
         </ul>
 
         <a href="#" class="btn btn-outline-success mr-3">Login</a>
-        <a href="#" class="btn btn-outline-danger">Daftar</a>
+        <a href="#" class="btn btn-outline-danger">Daftar</a> -->
 
-        </div> -->
+    </div> 
     </nav>
 
         <div class="container">
@@ -65,9 +65,9 @@
         </div>
         <footer class="text-center" style="padding-top: 10px;">
         &copy 2019 - ELY SUNARIAH
-    </footer>
+    </footer> 
 
-    <section class="main">
+    <!-- <section class="main">
     <div class="container">
     <div class="row">
     <div class="col-lg-8 mx-auto">
@@ -77,7 +77,7 @@
     </div>
     </div>
     </div>
-    </section>
+    </section> -->
     </div>
     </body>
 </html>

@@ -12,5 +12,6 @@
 */
 
 Route::get('/beranda','ProjectController@index'); 
-Route::get('/about','ProjectController@create'); 
+Route::get('/about','ProjectController@about');
+Route::get('/create','ProjectController@create'); 
 
