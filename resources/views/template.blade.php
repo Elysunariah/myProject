@@ -12,7 +12,7 @@
     </body>
     <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Malas Ngoding</a>
+        <a class="navbar-brand" href="#">ENovel</a>
         
         <!-- Search form -->
   <i class="fas fa-search" aria-hidden="true"></i>
@@ -32,7 +32,7 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="/about">About</a>
             </li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
@@ -40,8 +40,8 @@
                 Setting
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Tutorial HTML</a>
-                <a class="dropdown-item" href="#">Tutorial CSS</a>
+                <a class="dropdown-item" href="#">Buat Cerita Baru</a>
+                <a class="dropdown-item" href="#">Perpustakaan</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Tutorial Bootstrap</a>
             </div>
@@ -55,9 +55,7 @@
         <a href="#" class="btn btn-outline-danger">Daftar</a>
 
         </div> -->
-
     </nav>
-        
 
         <div class="container">
             <div class="panel panel-default" style="border-radius: 10px;">
@@ -66,7 +64,20 @@
         </div>
         </div>
         <footer class="text-center" style="padding-top: 10px;">
-        &copy 2018 - RPL SMKN
+        &copy 2019 - ELY SUNARIAH
     </footer>
+
+    <section class="main">
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-8 mx-auto">
+    <p class="m-10"></p>
+    <img src="cahayanovel.jpg" alt="Cinque terre" class="img-thumbnail">  
+    <p class="lead">Cahaya Surga Dimatanya</p>
+    </div>
+    </div>
+    </div>
+    </section>
+    </div>
     </body>
 </html>

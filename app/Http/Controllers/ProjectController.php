@@ -11,5 +11,9 @@ class ProjectController extends Controller
         return view ('beranda');
 
     }
+    public function create()
+    {
+        return view('about');
+    }
 
 }
