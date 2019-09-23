@@ -8,8 +8,9 @@
     </div> -->
     <br>
 <div class="p-5">   
-    <div class="mt-5">
+    <div class="mt-1">
     <h3>Rekomendasi</h3>
+    <p>just for you</p>
     </div>
         <div class="row mt-5">
         <div class=p-3></div>
@@ -21,7 +22,7 @@
             <div class="panel card" style="width: 13rem; height: 25rem;">
                 <img class="card-img-top" src="goates.jpg" alt="Card image cap">
                 <div class="card-body">
-                <h5 class="card-title"><a href="/buku"> Te-Nehisi goates the water dancer</a></h5>
+                <h5 class="card-title"><a> Te-Nehisi goates the water dancer</a></h5>
                 </div>
             </div>
         

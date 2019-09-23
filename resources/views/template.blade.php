@@ -33,7 +33,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
     <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
     <p class="p-4"></p>
         <a class="navbar-brand">
         <h3><p class="font-weight-bold">ENovel</p></h3>
@@ -82,6 +82,27 @@
 
     </div> 
     </nav>
+
+    <header class="masthead">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+            <h1 class="font-weight-light">Welcome to my final assignment</h1>
+            <p class="lead">this is my simple website appearance</p>
+        </div>
+        </div>
+    </div>
+    </header>
+    <style>
+        .masthead {
+        height: 50vh;
+        min-height: 500px;
+        background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+</style>
 
         <div class="container">
             <div class="panel panel-default" style="border-radius: 10px;">
