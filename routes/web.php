@@ -14,4 +14,15 @@
 Route::get('/beranda','ProjectController@index'); 
 Route::get('/about','ProjectController@about');
 Route::get('/create','ProjectController@create'); 
+Route::get('/library','ProjectController@library');
+Route::get('/buku','ProjectController@book'); 
 
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

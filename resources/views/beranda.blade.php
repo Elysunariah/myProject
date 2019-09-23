@@ -1,48 +1,82 @@
 @extends('template')
 @section('contentWebsite')
-<a href="#" class="ml-auto"><h5>Read more</h5></a>
-    <section class="main">
-    <div class="container">
-    <div class="row">
-    <div class="col-lg-10 mx-auto">
-    <p class="m-5"></p>
-    <div class="panel-heading mt-5">
-        <h3><strong>Rekomendasi</strong></h3>
-        <br>
-        <div class="view view-cascade overlay" style="width: 10rem;">
-            <img class="card-img-top" src="cahayanovel.jpg" alt="Card image cap">
-                <h5 class="card-title" href="/">Cahaya Surga Dimatanya...</h5>
+    <!-- <div class="panel-heading">
+        <strong>Beranda</strong>
+    </div>
+    <div class="panel-body mt-5">
+        Halaman Beranda 
+    </div> -->
+    <br>
+<div class="p-5">   
+    <div class="mt-5">
+    <h3>Rekomendasi</h3>
+    </div>
+        <div class="row mt-5">
+        <div class=p-3></div>
+        <style>
+            .card:hover {
+            box-shadow: 0px 2px 20px rgba(0,0,0,0.2);
+            }
+        </style>
+            <div class="panel card" style="width: 13rem; height: 25rem;">
+                <img class="card-img-top" src="goates.jpg" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title"><a href="/buku"> Te-Nehisi goates the water dancer</a></h5>
                 </div>
-        </div>
-        <div class="view view-cascade overlay" style="width: 10rem;">
-            <img class="card-img-top" src="cahayanovel.jpg" alt="Card image cap">
-                <h5 class="card-title" href="/">Cahaya Surga Dimatanya...</h5>
-                </div>           
-        </div>
-    </div>
-    </div>
-    </div>
-    </body>
-    </section>
-<!-- Card image -->
-<div class="view view-cascade overlay">
-  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/men.jpg" alt="Card image cap">
-  <a>
-    <div class="mask rgba-white-slight"></div>
-  </a>
-</div>
-<!-- Card content -->
-<div class="card-body card-body-cascade text-center">
+            </div>
+        
+            <div class="card ml-5" style="width: 13rem; height: 25rem;">
+                <img class="card-img-top" src="tentangnovel.jpg" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Tentang Kamu</h5>
+                </div>
+            </div>
+        
+            <div class="card ml-5" style="width: 13rem; height: 25rem;">
+                <img class="card-img-top" src="kingnovel.jpg" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Stephen King INSTITUTE</h5>
+                </div>
+            </div>
 
-  <!-- Title -->
-  <h4 class="card-title"><strong>Billy Coleman</strong></h4>
-  <!-- Subtitle -->
-  <h6 class="font-weight-bold indigo-text py-2">gambar sebagai penyemangat :v</h6>
-  <!-- Text -->
-  <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-  Voluptatibus, ex, recusandae. Facere modi sunt, quod quibusdam.
-  </p> -->
-</div>
-</div>
-    
+            <div class="card ml-5" style="width: 13rem; height: 25rem;">
+                <img class="card-img-top" src="cahayanovel.jpg" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Cahaya Surga Dimatanya</h5>
+                </div>
+            </div>
+
+            <div class="card ml-4 mt-5" style="width: 13rem; height: 25rem;">
+                <img class="card-img-top" src="goates.jpg" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Te-Nehisi goates the water dancer</h5>
+                </div>
+            </div>
+            
+            <div class="card ml-5 mt-5" style="width: 13rem; height: 25rem;">
+                <img class="card-img-top" src="goates.jpg" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Te-Nehisi goates the water dancer grwweweq424sfvt43swee</h5>
+                </div>
+            </div>
+
+            <div class="card ml-5 mt-5" style="width: 13rem; height: 25rem;">
+                <img class="card-img-top" src="goates.jpg" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Te-Nehisi goates the water dancer</h5>
+                </div>
+            </div>
+
+            <div class="card ml-5 mt-5" style="width: 13rem; height: 25rem;">
+                <img class="card-img-top" src="goates.jpg" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Te-Nehisi goates the water dancer</h5>
+                </div>
+            </div>
+
+    </div>
+</div>     
+
+
+       
 @endsection    

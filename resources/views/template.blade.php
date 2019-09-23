@@ -4,6 +4,28 @@
         <title>APLIKASI</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        .social-link {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            border-radius: 50%;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+            }
+
+            .social-link:hover,
+            .social-link:focus {
+            background: #ddd;
+            text-decoration: none;
+            color: #555;
+            }
+        </style>
     </head>
     <body>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -13,12 +35,16 @@
     <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <p class="p-4"></p>
-        <a class="navbar-brand" href="/beranda"><h3>ENovel</h3></a>        
+        <a class="navbar-brand">
+        <h3><p class="font-weight-bold">ENovel</p></h3>
+        </a>        
         <!-- Search form -->
-  <i class="fas fa-search" aria-hidden="true"></i>
-  <input class="form-control form-control-sm ml-5 mr-5 w-75 " type="text" placeholder="Search"
-    aria-label="Search">
-
+            <i class="fa fa-search ml-4" aria-hidden="true"></i>
+            <div class="col-md-8">
+            <input class="form-control " type="text" placeholder="Search"
+                aria-label="Search">   
+            </div>
+            
         <button class="navbar-toggler" type="button" data-toggle="collapse" 
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
          aria-label="Toggle navigation">
@@ -35,16 +61,15 @@
                 Setting
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/create">Buat Cerita Baru</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Perpustakaan</a>
+                <a class="dropdown-item" href="/create">Jelajahi</a>
+                <a class="dropdown-item" href="/library">Perpustakaan</a>
             </div>
             </li>
             <li class="nav-item active">
             <a class="nav-link" href="/about">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/beranda">Home</a>
             </li>
         </ul>    
            <!-- <li class="nav-item">
@@ -68,17 +93,6 @@
         &copy 2019 - ELY SUNARIAH
     </footer> 
 
-    <!-- <section class="main">
-    <div class="container">
-    <div class="row">
-    <div class="col-lg-8 mx-auto">
-    <p class="m-10"></p>
-    <img src="cahayanovel.jpg" alt="Cinque terre" class="img-thumbnail">  
-    <p class="lead">Cahaya Surga Dimatanya</p>
-    </div>
-    </div>
-    </div>
-    </section> -->
     </div>
     </body>
 </html>

@@ -19,5 +19,13 @@ class ProjectController extends Controller
     {
         return view('create');
     }
+    public function library()
+    {
+        return view('library');
+    }
+    public function book()
+    {
+        return view('buku');
+    }
 
 }
