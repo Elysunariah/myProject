@@ -48,30 +48,30 @@
             </div>
 
             <div class="card ml-4 mt-5" style="width: 13rem; height: 25rem;">
-                <img class="card-img-top" src="goates.jpg" alt="Card image cap">
+                <img class="card-img-top" src="bear.jpg" alt="Card image cap">
                 <div class="card-body">
-                <h5 class="card-title">Te-Nehisi goates the water dancer</h5>
+                <h5 class="card-title">The Bear and the Nightingale</h5>
                 </div>
             </div>
             
             <div class="card ml-5 mt-5" style="width: 13rem; height: 25rem;">
-                <img class="card-img-top" src="goates.jpg" alt="Card image cap">
+                <img class="card-img-top" src="dilan.jpg" alt="Card image cap">
                 <div class="card-body">
-                <h5 class="card-title">Te-Nehisi goates the water dancer grwweweq424sfvt43swee</h5>
+                <h5 class="card-title">Dilan</h5>
                 </div>
             </div>
 
             <div class="card ml-5 mt-5" style="width: 13rem; height: 25rem;">
-                <img class="card-img-top" src="goates.jpg" alt="Card image cap">
+                <img class="card-img-top" src="pemimpinovel.jpg" alt="Card image cap">
                 <div class="card-body">
-                <h5 class="card-title">Te-Nehisi goates the water dancer</h5>
+                <h5 class="card-title">Sang Pemimpi</h5>
                 </div>
             </div>
 
             <div class="card ml-5 mt-5" style="width: 13rem; height: 25rem;">
-                <img class="card-img-top" src="goates.jpg" alt="Card image cap">
+                <img class="card-img-top" src="senja.jpg" alt="Card image cap">
                 <div class="card-body">
-                <h5 class="card-title">Te-Nehisi goates the water dancer</h5>
+                <h5 class="card-title">Dibalik Senja</h5>
                 </div>
             </div>
 

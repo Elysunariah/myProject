@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>APLIKASI</title>
+        <title>tugas ahir</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -65,8 +65,9 @@
                 <a class="dropdown-item" href="/library">Perpustakaan</a>
             </div>
             </li>
-            <li class="nav-item active">
-            <a class="nav-link" href="/about">About <span class="sr-only">(current)</span></a>
+            <li class="nav-item ">
+            <a class="nav-link" href="/about">About</a>
+            <!-- <span class="sr-only">(current)</span> -->           
             </li>
             <li class="nav-item">
             <a class="nav-link" href="/beranda">Home</a>
