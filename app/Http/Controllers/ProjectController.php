@@ -27,5 +27,9 @@ class ProjectController extends Controller
     {
         return view('buku');
     }
+    public function detail()
+    {
+        return view('detail');
+    }
 
 }
