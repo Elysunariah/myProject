@@ -85,7 +85,7 @@
     </div> 
     </nav>
 
-    <header class="masthead">
+    <!-- <header class="masthead">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
         <div class="col-12 text-center">
@@ -104,7 +104,7 @@
         background-position: center;
         background-repeat: no-repeat;
         }
-</style>
+</style> -->
 
         <div class="container">
             <div class="panel panel-default" style="border-radius: 10px;">

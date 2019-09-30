@@ -1,10 +1,31 @@
 @extends('template')
 @section('contentWebsite')
 
+<header class="masthead">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+            <h1 class="font-weight-light">Welcome to my final assignment</h1>
+            <p class="lead">this is my simple website appearance</p>
+        </div>
+        </div>
+    </div>
+    </header>
+    <style>
+        .masthead {
+        height: 50vh;
+        min-height: 500px;
+        background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+</style>
+
 <div class="p-5">   
     <div class="mt-1">
     <h3>Rekomendasi</h3>
-    <p>just for you</p>
+    <p>a new set of stories just for you</p>
     </div>
         <div class="row mt-5">
         <div class=p-3></div>
