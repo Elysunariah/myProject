@@ -16,15 +16,15 @@
                 <i class="fa fa-eye mr-2 ml-2 grey white-text rounded-circle" aria-hidden="true"></i>1M Views</p>
             </div>
             <div class="mt-5">
-            <a href="#" class="btn btn-primary">Read</a>
-            <a href="#" class="btn btn-outline-primary ml-3">Add to library</a>
+            <a href="#" class="btn btn-primary  rounded-pill"  style="width:100px">Read</a>
+            <a href="#" class="btn btn-outline-primary  rounded-pill ml-3">Add to library</a>
             </div>
         </div>
     </div>
 </div>    
     <div class="p-5 ">
         <h2>About</h2>
-        <p>abcdghdh</p>
+        <p>buku</p>
     </div>
     
 

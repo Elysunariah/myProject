@@ -1,6 +1,5 @@
 @extends('template')
-@section('contentWebsite')
-
+@section('contentheader')
 <header class="masthead">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
@@ -11,6 +10,9 @@
         </div>
     </div>
     </header>
+@endsection
+@section('contentWebsite')
+
     <style>
         .masthead {
         height: 50vh;
@@ -26,7 +28,6 @@
     <div class="mt-1">
     <h3>Rekomendasi</h3>
     <p>a new set of stories just for you</p>
-    </div>
         <div class="row mt-5">
         <div class=p-3></div>
         <style>
@@ -34,77 +35,86 @@
             box-shadow: 0px 2px 20px rgba(0,0,0,0.2);
             }
         </style>
-            <div class="panel card" style="width: 13rem; height: 25rem;">
+            <div class="" style="width: 10rem; height: 20rem;">
                 <img class="card-img-top" src="goates.jpg" alt="Card image cap">
-                <div class="card-body">
                 <h5 class="card-title">
                 <p><a href="/detail" class="text-dark">Te-Nehisi goates the water dancer</a></p>
                 </h5>
-                </div>
             </div>
         
-            <div class="card ml-5" style="width: 13rem; height: 25rem;">
-                <img class="card-img-top" src="tentangnovel.jpg" alt="Card image cap">
-                <div class="card-body">
+            <div class="ml-5" style="width: 10rem; height: 20rem;">
+                <img class="card-img-top" src="hot-lecturer.jpg" alt="Card image cap">
                 <h5 class="card-title">
-                <p><a href="/detail" class="text-dark">Tentang Kamu</a></p> 
+                <p><a href="/detail" class="text-dark">Hot Lecturer and Me</a></p> 
                 </h5>
-                </div>
             </div>
         
-            <div class="card ml-5" style="width: 13rem; height: 25rem;">
+            <div class="ml-5" style="width: 10rem; height: 20rem;">
                 <img class="card-img-top" src="kingnovel.jpg" alt="Card image cap">
-                <div class="card-body">
                 <h5 class="card-title">
                 <p><a href="/detail" class="text-dark">Stephen King INSTITUTE</a></p> 
                 </h5>
-                </div>
             </div>
 
-            <div class="card ml-5" style="width: 13rem; height: 25rem;">
-                <img class="card-img-top" src="cahayanovel.jpg" alt="Card image cap">
-                <div class="card-body">
+            <div class="ml-5" style="width: 10rem; height: 20rem;">
+                <img class="card-img-top" src="me-and.jpg" alt="Card image cap">
                 <h5 class="card-title">
-                <p><a href="/detail" class="text-dark">Cahaya Surga Dimatanya</a></p> 
+                <p><a href="/detail" class="text-dark">Me and My Broken Heart</a></p> 
                 </h5>
-                </div>
             </div>
 
-            <div class="card ml-4 mt-5" style="width: 13rem; height: 25rem;">
+            <div class="ml-5" style="width: 10rem; height: 20rem;">
                 <img class="card-img-top" src="bear.jpg" alt="Card image cap">
-                <div class="card-body">
                 <h5 class="card-title">
                 <p><a href="/detail" class="text-dark">The Bear and the Nightingale</a></p> 
                </h5>
-                </div>
             </div>
-            
-            <div class="card ml-5 mt-5" style="width: 13rem; height: 25rem;">
+        </div>
+        </div>  
+
+        <div class="row mt-5">
+        <div class=p-3></div>
+        <style>
+            .card:hover {
+            box-shadow: 0px 2px 20px rgba(0,0,0,0.2);
+            }
+        </style>
+            <div class="" style="width: 10rem; height: 20rem;">
                 <img class="card-img-top" src="dilan.jpg" alt="Card image cap">
-                <div class="card-body">
                 <h5 class="card-title">
-                <p><a href="/detail" class="text-dark">Dilan</a></p> 
+                <p><a href="/detail" class="text-dark">Dilan</a></p>
                 </h5>
-                </div>
+            </div>
+        
+            <div class=" ml-5" style="width: 10rem; height: 20rem;">
+                <img class="card-img-top" src="tentangnovel.jpg" alt="Card image cap">
+                <h5 class="card-title">
+                <p><a href="/detail" class="text-dark">Tentang Kamu</a></p> 
+                </h5>
+            </div>
+        
+            <div class="ml-5" style="width: 10rem; height: 20rem;">
+                <img class="card-img-top" src="si-panda-amerika.jpg" alt="Card image cap">
+                <h5 class="card-title">
+                <p><a href="/detail" class="text-dark">Si Panda Amerika(Amerika Panda)</a></p> 
+                </h5>
             </div>
 
-            <div class="card ml-5 mt-5" style="width: 13rem; height: 25rem;">
-                <img class="card-img-top" src="pemimpinovel.jpg" alt="Card image cap">
-                <div class="card-body">
+            <div class="ml-5" style="width: 10rem; height: 20rem;">
+                <img class="card-img-top" src="cahayanovel.jpg" alt="Card image cap">
                 <h5 class="card-title">
-                <p><a href="/detail" class="text-dark">Sang Pemimpi</a></p> 
+                <p><a href="/detail" class="text-dark">Cahaya Surga Dimatanya</a></p> 
                 </h5>
-                </div>
             </div>
 
-            <div class="card ml-5 mt-5" style="width: 13rem; height: 25rem;">
-                <img class="card-img-top" src="senja.jpg" alt="Card image cap">
-                <div class="card-body">
+            <div class="ml-5" style="width: 10rem; height: 20rem;">
+                <img class="card-img-top" src="pangeran-cilik.jpg" alt="Card image cap">
                 <h5 class="card-title">
-                <p><a href="/detail" class="text-dark">Dibalik Senja</a></p> 
-                </h5>
-                </div>
+                <p><a href="/detail" class="text-dark">Le Petit Prince </a></p> 
+               </h5>
             </div>
+        </div>
+        </div>    
         
     </div>
 </div>     

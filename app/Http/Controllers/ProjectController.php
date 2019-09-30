@@ -31,5 +31,9 @@ class ProjectController extends Controller
     {
         return view('detail');
     }
+    public function contact()
+    {
+        return view('contact');
+    }
 
 }

@@ -26,22 +26,26 @@
   </div>
  </div>
 
-<!-- List group -->
-<!-- <div class="list-group" id="myList" role="tablist">
-  <a class="list-group-item list-group-item-action active" data-toggle="list" href="#home" role="tab">Home</a>
-  <a class="list-group-item list-group-item-action" data-toggle="list" href="#profile" role="tab">Profile</a>
-  <a class="list-group-item list-group-item-action" data-toggle="list" href="#messages" role="tab">Messages</a>
-  <a class="list-group-item list-group-item-action" data-toggle="list" href="#settings" role="tab">Settings</a>
-</div> -->
+<ul class="ml-auto mr-5">
+<div class="row ml-2 p-5">
+  <p class="mb-0">
+  <i class="fa fa-tasks fa-2x mr-3 ml-2 grey white-text rounded-circle" aria-hidden="true"></i>Sejarah</p>
+  <p class="mb-0 ml-4">
+  <i class="fa fa-tasks fa-2x mr-3 ml-5 grey white-text rounded-circle" aria-hidden="true"></i>Cerpen</p>
+  <p class="mb-0 ml-4">
+  <i class="fa fa-tasks fa-2x mr-3 ml-5 grey white-text rounded-circle" aria-hidden="true"></i>Puisi</p>
+  <p class="mb-0 ml-4">
+  <i class="fa fa-tasks fa-2x mr-3 ml-5 grey white-text rounded-circle" aria-hidden="true"></i>Puisi</p>
+  <p class="mb-0 ml-4">
+  <i class="fa fa-tasks fa-2x mr-3 ml-5 grey white-text rounded-circle" aria-hidden="true"></i>Puisi</p>
+  <p class="mb-0 ml-4">
+  <i class="fa fa-tasks fa-2x mr-3 ml-5 grey white-text rounded-circle" aria-hidden="true"></i>Puisi</p>  
+</div>
+</ul>
 
-<!-- Tab panes -->
-<!-- <div class="tab-content">
-  <div class="tab-pane active" id="home" role="tabpanel">
-    Velit aute mollit ipsum ad dolor consectetur nulla officia culpa adipisicing exercitation fugiat tempor.
-    Voluptate deserunt sit sunt nisi aliqua fugiat proident ea ut. Mollit voluptate reprehenderit occaecat nisi
-    ad non minim tempor sunt voluptate consectetur exercitation id ut nulla. Ea et fugiat aliquip nostrud sunt
-    incididunt consectetur culpa aliquip eiusmod dolor. Anim ad Lorem aliqua in cupidatat nisi enim eu nostrud
-    do aliquip veniam minim.
-  </div> -->
+
+         
+
+
 
 @endsection

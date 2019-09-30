@@ -33,19 +33,19 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
     <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light "> <!-- shadow fixed-top -->
-   
+    <nav class="navbar navbar-expand-lg navbar-light bg-info "> 
+    <!-- shadow fixed-top -->
     <p class="p-4"></p>
         <a class="navbar-brand">
         <h3><p class="font-weight-bold">ENovel</p></h3>
         </a>        
         <!-- Search form -->
             <i class="fa fa-search ml-4" aria-hidden="true"></i>
-            <div class="col-md-8">
-            <input class="form-control " type="text" placeholder="Search"
-                aria-label="Search">   
+            <div class="col-md-8 ">
+            <input class="form-control rounded-pill " type="text" placeholder="Search"
+                aria-label="Search">           
             </div>
-            
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" 
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
          aria-label="Toggle navigation">
@@ -57,33 +57,30 @@
         <ul class="navbar-nav ml-auto mr-5">
             
             <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" 
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Setting
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="/create">Jelajahi</a>
                 <a class="dropdown-item" href="/library">Perpustakaan</a>
+                <a class="dropdown-item" href="/contact">Contact Us</a>
+
             </div>
             </li>
             <li class="nav-item ">
-            <a class="nav-link" href="/about">About</a>
+            <a class="nav-link text-white" href="/about">About</a>
             <!-- <span class="sr-only">(current)</span> -->           
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="/beranda">Home</a>
+            <a class="nav-link text-white" href="/beranda">Home</a>
             </li>
+            
         </ul>    
-           <!-- <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link Mati</a>
-            </li>
-        </ul>
-
-        <a href="#" class="btn btn-outline-success mr-3">Login</a>
-        <a href="#" class="btn btn-outline-danger">Daftar</a> -->
 
     </div> 
     </nav>
+
 
     <!-- <header class="masthead">
     <div class="container h-100">
@@ -105,7 +102,7 @@
         background-repeat: no-repeat;
         }
 </style> -->
-
+@yield('contentheader')
         <div class="container">
             <div class="panel panel-default" style="border-radius: 10px;">
             @section('contentWebsite')
