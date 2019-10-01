@@ -37,10 +37,10 @@
     <!-- shadow fixed-top -->
     <p class="p-4"></p>
         <a class="navbar-brand">
-        <h3><p class="font-weight-bold">ENovel</p></h3>
+        <h3><p class="font-weight-bold text-white">ENovel</p></h3>
         </a>        
         <!-- Search form -->
-            <i class="fa fa-search ml-4" aria-hidden="true"></i>
+            <i class="fa fa-search text-white ml-4" aria-hidden="true"></i>
             <div class="col-md-8 ">
             <input class="form-control rounded-pill " type="text" placeholder="Search"
                 aria-label="Search">           
