@@ -1,5 +1,7 @@
 @extends('template')
 @section('contentheader')
+<div class="bg-light">
+
 <header class="masthead">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
@@ -24,7 +26,7 @@
         background-repeat: no-repeat;
         }
 </style>
-
+<div class="p-1 mt-3 bg-white">
 <div class="p-5">   
     <div class="mt-1">
     <h3>Rekomendasi</h3>
@@ -128,8 +130,9 @@
         </div>    
         
     </div>
-</div>     
-
+</div>  
+</div>   
+</div>
 @endsection
  
 

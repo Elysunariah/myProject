@@ -26,6 +26,8 @@
   </div>
  </div> -->
 
+<div class="mt-5 p-5 bg-white">
+
 <ul class="ml-auto mr-5">
 <div class="row ml-2 p-5">
   <p class="mb-0">
@@ -61,9 +63,10 @@
   <h1>Cerpen</h1></p>
 </div>
 </ul>
+</div>
 
 <div class="row mt-5">
-        <div class=p-5></div>
+    <div class=p-5></div>
         <style>
             .card:hover {
             box-shadow: 0px 2px 20px rgba(0,0,0,0.2);
@@ -108,11 +111,9 @@
                 <small class="text-muted">Fiksi</small></p> 
                </h5>
             </div>
-        </div>
-        </div>  
+    </div>
+</div>  
 
-
-         
 
 
 
