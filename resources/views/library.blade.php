@@ -5,21 +5,21 @@
 <h4><p class="font-weight-bold">Tittle</p></h4>
 <div class="row ml-2 mt-4">
   <p class="mb-0">
-  <p>sejarah</p>
+  <p>Majicial</p>
   <p class="ml-5">Sejarah</p>
   <p class="ml-5">puisi</p>
   <p class="ml-5">Cerpen</p>
   <p class="ml-5">Fiksi</p>
-  <p class="ml-5">Fiksi</p>
+  <p class="ml-5">Romance</p>
   </div>
   <div class="row ml-2 mt-4">
   <p class="mb-0">
-  <p>sejarah</p>
-  <p class="ml-5">Sejarah</p>
-  <p class="ml-5">puisi</p>
+  <p>History</p>
+  <p class="ml-5">Humor</p>
+  <p class="ml-5">Remaja</p>
   <p class="ml-5">Cerpen</p>
-  <p class="ml-5">Fiksi</p>
-  <p class="ml-5">Fiksi</p>
+  <p class="ml-5">Mister</p>
+  <p class="ml-5">Fantasi</p>
   </div>
 </div>
 </div>
@@ -129,6 +129,41 @@
         </div>
     </div>
     </div>
+
+    <div class="row mt-5">
+    <div  style="max-width: 500px;">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+        <img src="kata.png" class="card-img" alt="card image cap ">
+        </div>
+        <div class="col-md-8">
+        <div class="ml-5">
+            <h4 class="card-title">Kata </h4>
+            <p class="card-text">Mereka harus bicara dan mulai membuka hati, dan mengungkapkan isi hati agar 
+            persahabatan mereka sempurna kembali dari luka karena cinta...</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="row mt-5">
+    <div  style="max-width: 500px;">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+        <img src="aroma.png" class="card-img" alt="card image cap ">
+        </div>
+        <div class="col-md-8">
+        <div class="ml-5">
+            <h4 class="card-title">Aroma Karsa</h4>
+            <p class="card-text">Obsesi Raras memburu Puspa Karsa, bunga sakti yang konon mampu mengendalikan 
+            kehendak dan cuma bisa diidentifikasi melalui aroma, memertemukannya dengan Jati Wesi...</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+        </div>
+    </div>
+    </div>
+    
 </div>
 </div>
 @endsection

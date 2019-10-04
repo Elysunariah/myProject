@@ -16,7 +16,7 @@ Route::get('/about','ProjectController@about');
 Route::get('/create','ProjectController@create'); 
 Route::get('/library','ProjectController@library');
 Route::get('/buku','ProjectController@book'); 
-Route::get('/detail','ProjectController@detail'); 
+Route::get('/detaill','ProjectController@detail'); 
 Route::get('/contact','ProjectController@contact'); 
 
 

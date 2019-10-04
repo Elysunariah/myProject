@@ -29,7 +29,7 @@ class ProjectController extends Controller
     }
     public function detail()
     {
-        return view('detail');
+        return view('detaill');
     }
     public function contact()
     {

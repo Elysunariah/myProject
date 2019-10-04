@@ -36,12 +36,15 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-info "> 
     <!-- shadow fixed-top -->
     <p class="p-4"></p>
+    <i class="fa-2x" src="e.png"></i>
+
         <a class="navbar-brand">
-        <h3><p class="font-weight-bold text-white">ENovel</p></h3>
+        <!-- <img src="e.png" width="50" height="50"  alt=""> -->
+        <h3><i class="font-weight-bold text-white">ENovel</i></h3> 
         </a>        
         <!-- Search form -->
-            <i class="fa fa-search text-white ml-4" aria-hidden="true"></i>
-            <div class="col-md-8 ">
+            <i class="fa fa-search text-white ml-5" aria-hidden="true"></i>
+            <div class="col-md-6 ">
             <input class="form-control rounded-pill " type="text" placeholder="Search"
                 aria-label="Search">           
             </div>
@@ -54,9 +57,9 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <ul class="navbar-nav ml-auto mr-5">
+        <ul class="navbar-nav ml-auto mr-3">
             
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" 
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Setting
@@ -67,13 +70,22 @@
                 <a class="dropdown-item" href="/contact">Contact Us</a>
 
             </div>
-            </li>
+            </li> -->
             <li class="nav-item ">
-            <a class="nav-link text-white" href="/about">About</a>
+            <a class="nav-link text-white" href="/beranda">Home</a>
             <!-- <span class="sr-only">(current)</span> -->           
             </li>
             <li class="nav-item">
-            <a class="nav-link text-white" href="/beranda">Home</a>
+            <a class="nav-link text-white" href="/about">About</a>
+            </li>
+            <li class="nav-item ">
+            <a class="nav-link text-white" href="/create">Jelajahi</a>
+            </li>
+            <li class="nav-item ml-2">
+            <a class="nav-link text-white" href="/library">Perpustakaan</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link text-white" href="/contact">Contact Us</a>
             </li>
             
         </ul>    
