@@ -6,8 +6,8 @@
     <div class="container h-100">
         <div class="row h-100 align-items-center">
         <div class="col-12 text-center">
-            <h1 class="font-weight-light text-white">Welcome to my final assignment</h1>
-            <p class="lead text-white">this is my simple website appearance</p>
+            <h1 class="font-weight-light text-danger">Welcome to my final assignment</h1>
+            <p class="lead text-danger">this is my simple website appearance</p>
         </div>
         </div>
     </div>
